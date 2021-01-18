@@ -13,6 +13,9 @@ A collection of results that are useful enough for me to keep them all in one pl
 
 Several people have contacted me to say that they used some of these results in published papers. That's great! If you use this reference for something that ends up in a publication, please consider including a citation with my name, the page title, and the url. [Here's how to do it in REVTeX][REVTeX-code] (thanks, [Tim Wiser][Tim-tweet]), and here's [BibTeX code][BibTeX-code]. 
 
+Watch out for MathJax that hasn't compiled! Porting this over from pure html to markdown has been a real pain. LaTeX sitting in an html element uses a single slash, but outside an element an extra slash is needed.
+ {: .notice--danger}
+
 <!-- {% include toc title="Table of Contents" %} -->
 
 ### Table of Contents
