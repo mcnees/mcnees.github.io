@@ -6,7 +6,7 @@ classes: wide
 ---
 
 <!-- # Conventions, Definitions, Identities, and Formulas -->
-_Last Modified: January 14, 2021_
+_Last Modified: January 18, 2021_
 
 A collection of results that are useful enough for me to keep them all in one place. [Let me know][Mail-me] if you find typos or mistakes.
 
@@ -145,7 +145,7 @@ Consider a \\(d+1\\) dimensional spacetime \\((\mathcal{M}, g)\\) and a covarian
 </ul>
 
 ### Euler Densities
-Let \\(\MM\\) be a manifold with no boundary and dimension \\(d+1=2n\\) an even number. Our normalization gives \\(\chi(S^{2n})=2\\).
+Let \\(\MM\\) be a manifold (with no boundary!) and dimension \\(d+1=2n\\) an even number. Our normalization gives \\(\chi(S^{2n})=2\\).
 
 <ul>
 
@@ -197,20 +197,20 @@ Let \\(\Sigma \subset \MM\\) be a \\(d\\) dimensional hypersurface whose embeddi
 symmetrization of indices is implied when appropriate.
 
 <ul>
-<li>First Fundamental Form / Induced Metric on \\(\Sigma\\)
+<li>First Fundamental Form / Induced Metric on \(\Sigma\)
 	\begin{equation}
 	    h_{\mu\nu} = g_{\mu\nu} - n_{\mu} n_{\nu}
 	\end{equation}
 </li>
 
-<li>Projection onto \\(\Sigma\\)
+<li>Projection onto \(\Sigma\)
 	\begin{equation}
 	    \bot \,T^{\mu \,\ldots}{}_{\nu \, \ldots} = h^{\mu}{}_{\lambda} \ldots
 	    h^{\sigma}{}_{\nu} \ldots T^{\lambda \, \ldots}{}_{\sigma \, \ldots}
 	\end{equation}
 </li>
 
-<li>Second Fundamental Form / Extrinsic Curvature of \\(\Sigma\\)
+<li>Second Fundamental Form / Extrinsic Curvature of \(\Sigma\)
 	\begin{gather}
 	    K_{\mu\nu} = \bot (\nabla_{\mu} n_{\nu} ) = h_{\mu}{}^{\lambda} h_{\nu}{}^{\sigma}\,
 	    \nabla_{\lambda} n_{\sigma}  = \frac{1}{2} \, \pounds_{n} h_{\mu\nu}
@@ -236,13 +236,13 @@ symmetrization of indices is implied when appropriate.
 	\end{equation}
 </li>
 
-<li>Covariant Derivative on \\(\Sigma\\) compatible with \\(h_{\mu\nu}\\)
+<li>Covariant Derivative on \(\Sigma\) compatible with \(h_{\mu\nu}\)
 	\begin{equation}
 	 \DD_{\mu} T^{\alpha \, \ldots}{}_{\beta \, \ldots} = \bot \, \nabla_{\mu} T^{\alpha \, \ldots}{}_{\beta \, \ldots} \quad \forall \quad T = \bot\,T
 	\end{equation}
 </li>
 
-<li>Intrinsic Curvature of \\((\Sigma,h)\\)
+<li>Intrinsic Curvature of \((\Sigma,h)\)
 	\begin{equation}
 	  \left[ \DD_{\mu}, \DD_{\nu} \right] A^{\lambda} = \RR^{\lambda}{}_{\sigma \mu \nu} A^{\sigma} \quad
 	    \forall \quad A^{\lambda} = \bot \, A^{\lambda} %= h^{\lambda}{}_{\sigma} \, A^{\sigma}
@@ -277,7 +277,7 @@ symmetrization of indices is implied when appropriate.
 	\end{align}
 </li>
 
-<li>Lie Derivatives along \\(n^{\mu}\\)
+<li>Lie Derivatives along \(n^{\mu}\)
 	\begin{gather}
 	  \pounds_{n} K_{\mu\nu} \, = \, n^{\lambda} \nabla_{\lambda} K_{\mu\nu} +
 	  K_{\lambda \nu} \nabla_{\mu} n^{\lambda} + K_{\mu \lambda} \nabla_{\nu} n^{\lambda} \\ 
@@ -653,9 +653,13 @@ The important point is that this applies not just to spatial vectors but to <i>a
 	P_{i}{}^{a} \pounds_{t} u_{a} = 0 ~. 
 \end{gather}
 Finally, we can show that the Lie derivative along \\(t^{a}\\) of any contravariant spatial vector satisfies
+
+$$
 \begin{gather}
-	P^{i}{}_{a} \pounds_{t} V^{a}  = \partial_{t} V^{i} \quad \forall \quad V^{i} = P^{i}{}_{a} V^{a} ~. 
+	P^{i}{}_{a} \pounds_{t} V^{a}  = \partial_{t} V^{i} \quad \forall \quad V^{i} = P^{i}{}_{a} V^{a} ~.
 \end{gather}
+$$
+
 This follows from a lengthier calculation than what is required for the first two results. 	
 
 
@@ -706,7 +710,7 @@ These allow us to write out the various projections of the Einstein equations \\
 	+ \,\theta\,\theta_{ij} -2 \theta_{i}{}^{k} \theta_{jk} -\frac{1}{2}\sigma_{ij}\left(\theta^{2} + \theta^{kl} \theta_{kl} \right) - \frac{1}{\alpha} \left(D_i D_j \alpha - \sigma_{ij} D^{k} D_{k} \alpha \right) & \\ \nonumber
 	 = \kappa^{2} P_{i}{}^{a} P_{j}{}^{b} T_{ab} &
 \end{align}
-Or, if we use the trace of this equation to rewrite \\(\RR\\) and define the spatial stress tensor as \\(\SS_{ij} \defeq P_{i}{}^{a} P_{j}{}^{b} T_{ab}\\), this can be written as
+Or, if we use the trace of this equation to rewrite \(\RR\) and define the spatial stress tensor as \(\SS_{ij} \defeq P_{i}{}^{a} P_{j}{}^{b} T_{ab}\), this can be written as
 \begin{align}
 	\partial_{t} \theta_{ij} = & \,\,\pounds_{\beta} \theta_{ij} + \alpha \left(\RR + \theta \, \theta_{ij} - 2 \,\theta_{i}{}^{k} \theta_{jk} \right) - D_{i} D_{j} \alpha \\ \nonumber
 	& \, - \kappa^{2}\,\alpha\,\left(\SS_{ij} - \frac{1}{d-2} \sigma_{ij} \SS^{k}{}_{k}\right) - \kappa^{2}\,\frac{1}{d-2} \sigma_{ij} \alpha \,\rho 
