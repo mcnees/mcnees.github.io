@@ -2,7 +2,22 @@
 permalink: /about/
 title: "About"
 ---
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/me.jpeg" alt=""> -->
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+![image-right](/assets/images/me2.jpeg){: .align-right}
+Hello! My name is Robert McNees. I'm a theoretical physicist and associate professor in the [Department of Physics][Loyola-physics] at [Loyola University Chicago][Loyola-main]. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My research wanders around through topics like black holes, cosmology, and particle physics. Broadly speaking I am curious about the physics of systems where both gravity and quantum mechanics are important. 
+
+I was an undergrad at the University of North Carolina, spent a year at the University of Glasgow, and then headed to the University of Texas at Austin for my PhD. While I was at UT I was a member of the Theory Group. After that I went on to postdoctoral research positions at the University of Michigan, Brown University, and the Perimeter Institute for Theoretical Physics. 
+
+When I am not teaching or doing research I like to spend time with my family, hang out with our dog, take photos of Lake Michigan, and [scream into the void][scream-into-the-void]. 
+
+<!-- <div class="notice">
+  <h4>Message</h4>
+  <p>A basic message.</p>
+</div> -->
+
+[Loyola-physics]: https://luc.edu/physics
+[Loyola-main]: https://luc.edu
+[scream-into-the-void]: https://twitter.com/mcnees
