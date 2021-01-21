@@ -9,7 +9,7 @@ tags:
 excerpt:  "Good morning."
 ---
 
-![image-center](/assets/images/good_morning.jpg){: .align-center}
+[![image-center](/assets/images/good_morning.jpg){: .align-center}](/assets/images/good_morning.jpg)
 *Pratt pier on the far north side of Chicago at sunrise.*
 {: style="text-align: center;"}
 

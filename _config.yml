@@ -75,11 +75,14 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mcnees"
+    - label: "arXiv"
+      icon: "ai ai-arxiv ai-fw"
+      url: "https://arxiv.org/search/?searchtype=author&query=McNees%2C+R"
     - label: "iNSPIRE"
-      icon: "fab fa fa-university"
+      icon: "ai ai-inspire ai-fw"
       url: "https://inspirehep.net/authors/997989"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "ai ai-google-scholar ai-fw"
       url: "https://scholar.google.com/citations?user=Xv-faY4AAAAJ&hl=en"
     - label: "ORCiD"
       icon: "fab fa-fw fa-orcid"
@@ -124,3 +127,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
