@@ -6,7 +6,7 @@ classes: wide
 ---
 
 <!-- # Conventions, Definitions, Identities, and Formulas -->
-_Last Modified: January 18, 2021_
+_Last Modified: April 6, 2021_
 
 A collection of results that are useful enough for me to keep them all in one place. [Let me know][Mail-me] if you find typos or mistakes.
 
