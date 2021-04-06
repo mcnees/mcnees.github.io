@@ -457,7 +457,7 @@ its inverse. All quantities are expressed in terms of the perturbation to the me
 
 <li>Square Root of Determinant of Metric
 	\begin{equation}
-	  \sqrt{g} \to \sqrt{g} \, \left( 1 + \frac{1}{2}\,g^{\mu\nu} \dg_{\mu\nu} + \ldots \right)
+	  \sqrt{g} \to \sqrt{g} \, \left( 1 + \frac{1}{2}\,g^{\mu\nu} \dg_{\mu\nu} +  \left( \frac{1}{8}\,g^{\alpha\beta} g^{\mu\nu} - \frac{1}{4}\,g^{\mu\alpha} g^{\nu\beta} \right)\,\dg_{\alpha\beta} \dg_{\mu\nu} +  \ldots \right)
 	\end{equation}
 </li>
 
