@@ -24,7 +24,7 @@ Watch out for MathJax that hasn't compiled! Porting this over from pure html to 
 - [Differential Forms](#differential-forms)
 - [Euler Densities](#euler-densities)
 - [Hypersurface Formed by a Spacelike Vector](#hypersurface-formed-by-a-spacelike-vector)
-- [Sign Conventions for the Action](#sign-conventiones-for-the-action)
+- [Sign Conventions for the Action](#sign-conventions-for-the-action)
 - [Hamiltonian Formulation for Evolution Along a Spatial Direction](#hamiltonian-formulation-for-evolution-along-a-spatial-direction)
 - [Conformal Transformations](#conformal-transformations)
 - [Small Variations of the Metric](#small-variations-of-the-metric)
