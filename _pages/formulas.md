@@ -294,15 +294,15 @@ symmetrization of indices is implied when appropriate.
 
 ### Sign Conventions for the Action
 
-These conventions follow Weinberg (after accounting for his definition of the Riemann tensor, which has a minus sign relative to our definition). They are appropriate when using signature \\((-,+,\ldots,+)\\). The \\(d+1\\)-dimensional Newton's constant is \\(2\kappa^{2} = 16 \pi G_{d+1}\\). The boundary \\((\dM,h)\\) is formed by a spacelike unit vector \\(n^{\mu}\\), as in the previous section, and the sign on the boundary term follows from our definition of the extrinsic curvature.
+These conventions follow Weinberg (after accounting for his definition of the Riemann tensor, which has a minus sign relative to our definition). They are appropriate when using Lorentzian signature \\((-,+,\ldots,+)\\). The \\(d+1\\)-dimensional Newton's constant is \\(2\kappa^{2} = 16 \pi G_{d+1}\\). The boundary \\((\dM,h)\\) is formed by a spacelike unit vector \\(n^{\mu}\\), as in the previous section, and the sign on the boundary term follows from our definition of the extrinsic curvature.
 
 <ul>
 <li>Gravitational Action
 \begin{align}
     I_G = & \dub \frac{1}{2\,\kappa^2} \int_{\MM} \nts d^{d+1}x \sqrt{g} \left( R - 2 \,\Lambda
-     \right) + \frac{1}{\kappa^2} \int_{\dM} \nts d^{d} x \sqrt{h} \, K \\
+     \right) + \frac{1}{\kappa^2} \int_{\dM} \nts d^{d} x \sqrt{h} \, K <!-- \\
      = & \dub \frac{1}{2\,\kappa^2} \int_{\MM} \nts d^{d+1}x \sqrt{g} \left( \RR + K^2
-    - K^{\mu\nu}\, K_{\mu\nu} - 2 \,\Lambda \right)
+    - K^{\mu\nu}\, K_{\mu\nu} - 2 \,\Lambda \right) -->
 \end{align}
 </li>
 
