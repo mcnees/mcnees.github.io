@@ -3,6 +3,7 @@ permalink: /formulas/
 title: "Conventions, Definitions, Identities, and Formulas"
 <!-- layout: splash -->
 classes: wide
+toc_sticky: true 
 ---
 
 <!-- # Conventions, Definitions, Identities, and Formulas -->
