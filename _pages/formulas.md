@@ -2,7 +2,7 @@
 permalink: /formulas/
 title: "Conventions, Definitions, Identities, and Formulas"
 <!-- layout: splash -->
-classes: wide
+<!-- classes: wide -->
 toc: true
 toc_sticky: true 
 ---
@@ -18,7 +18,7 @@ Several people have contacted me to say that they used some of these results in 
 Watch out for MathJax that hasn't compiled! Porting this over from pure html to markdown has been a real pain. LaTeX sitting in an html element uses a single slash, but outside an element an extra slash is needed.
  {: .notice--danger}
 
-{% include toc title="Table of Contents" %}
+<!-- {% include toc title="Table of Contents" %} -->
 
 ### Table of Contents
 
