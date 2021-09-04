@@ -733,7 +733,7 @@ We would like to relate the components of the metric to the ADM variables: the l
 \begin{gather}
 	\sigma_{ij} = h_{ij} ~.
 \end{gather}
-The inverse spatial metric, \\(\sigma^{ij}\\), is literally the inverse of \\(h_{ij}\\), which is not in general the same thing as \\(h^{ij}\\) (see, for instance, equation \eqref{ADMInverseMetric})
+The inverse spatial metric, \\(\sigma^{ij}\\), is literally the inverse of \\(h_{ij}\\), which is not in general the same thing as \\(h^{ij}\\). See, for instance, equation \eqref{ADMInverseMetric}.
 \begin{gather}
 	\sigma^{ij} = (\sigma_{ij})^{-1} = (h_{ij})^{-1} \neq h^{ij} ~. 
 \end{gather}
