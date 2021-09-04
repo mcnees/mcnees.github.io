@@ -6,7 +6,7 @@ classes: wide
 ---
 
 <!-- # Conventions, Definitions, Identities, and Formulas -->
-_Last Modified: April 6, 2021_
+_Last Modified: September 4, 2021_
 
 A collection of results that are useful enough for me to keep them all in one place. [Let me know][Mail-me] if you find typos or mistakes.
 
@@ -16,7 +16,7 @@ Several people have contacted me to say that they used some of these results in 
 Watch out for MathJax that hasn't compiled! Porting this over from pure html to markdown has been a real pain. LaTeX sitting in an html element uses a single slash, but outside an element an extra slash is needed.
  {: .notice--danger}
 
-<!-- {% include toc title="Table of Contents" %} -->
+{% include toc title="Table of Contents" %}
 
 ### Table of Contents
 
@@ -112,7 +112,7 @@ Consider a \\(d+1\\) dimensional spacetime \\((\mathcal{M}, g)\\) and a covarian
      - \frac{1}{d} \, R^2 \right) \, \right]
 	\end{align}
 	</li>
-</ul>
+</ul> 
 
 ### Differential Forms
 <ul>
