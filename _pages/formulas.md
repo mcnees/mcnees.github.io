@@ -315,10 +315,17 @@ These conventions follow Weinberg (after accounting for his definition of the Ri
 \end{align}
 </li>
 
+<li>Gravity Minimally Coupled to a Scalar Field
+\begin{align}
+    I_G + I_{scalar} = & \dub \int_{\MM} \nts d^{d+1}x \sqrt{g} \left[ \frac{1}{2\,\kappa^2} \left( R - 2 \,\Lambda \right)
+     - \frac{1}{2} \nabla_{\mu} f \, \nabla^{\mu} f - V(f)  \right] 
+\end{align}
+
+
 <li>Gravity Minimally Coupled to a Gauge Field
 \begin{align}
     I_G + I_{Maxwell} = & \dub \int_{\MM} \nts d^{d+1}x \sqrt{g} \left[ \frac{1}{2\,\kappa^2} \left( R - 2 \,\Lambda \right)
-     - \frac{1}{4} F^{\mu\nu} F_{\mu\nu} \right] + \frac{1}{\kappa^2} \int_{\dM} \nts d^{d} x \sqrt{h} \, K
+     - \frac{1}{4} F^{\mu\nu} F_{\mu\nu} \right] 
 \end{align}
 </li>
 </ul>
