@@ -320,7 +320,7 @@ These conventions follow Weinberg (after accounting for his definition of the Ri
     I_G + I_{scalar} = & \dub \int_{\MM} \nts d^{d+1}x \sqrt{g} \left[ \frac{1}{2\,\kappa^2} \left( R - 2 \,\Lambda \right)
      - \frac{1}{2} \nabla_{\mu} f \, \nabla^{\mu} f - V(f)  \right] 
 \end{align}
-
+</li>
 
 <li>Gravity Minimally Coupled to a Gauge Field
 \begin{align}
