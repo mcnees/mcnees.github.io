@@ -328,6 +328,12 @@ These conventions follow Weinberg (after accounting for his definition of the Ri
      - \frac{1}{4} F^{\mu\nu} F_{\mu\nu} \right] 
 \end{align}
 </li>
+
+<li>Stress Tensor
+\begin{gather}
+	T^{\mu\nu} \defeq \frac{2}{\sqrt{g}}\,\frac{\delta I}{\delta g_{\mu\nu}} = - g^{\mu\lambda} g^{\nu\rho} \frac{2}{\sqrt{g}}\,\frac{\delta I}{\delta g^{\lambda\rho}}
+\end{gather}
+</li>
 </ul>
 
 ### Hamiltonian Formulation for Evolution Along a Spatial Direction
