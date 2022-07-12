@@ -26,7 +26,7 @@ Watch out for MathJax that hasn't compiled! Porting this over from pure html to 
 - [Hypersurface Formed by a Spacelike Vector](#hypersurface-formed-by-a-spacelike-vector)
 - [Sign Conventions for the Action](#sign-conventions-for-the-action)
 - [Hamiltonian Formulation for Evolution Along a Spatial Direction](#hamiltonian-formulation-for-evolution-along-a-spatial-direction)
-- [Conformal Transformations](#conformal-transformations)
+- [Weyl Transformations](#weyl-transformations)
 - [Small Variations of the Metric](#small-variations-of-the-metric)
 - [The ADM Decomposition](#the-adm-decomposition)
 - [Converting to ADM Variables](#converting-to-adm-variables)
@@ -371,7 +371,7 @@ The canonical variables are the metric \\(h_{\mu\nu}\\) on \\(\Sigma\\) and its 
 </li>
 </ul>
 
-### Conformal Transformations
+### Weyl Transformations
 
 The dimension of spacetime is \\(d+1\\). Indices are raised and lowered using the metric \\(g_{\mu\nu}\\) and its inverse \\(g^{\mu\nu}\\).
 
