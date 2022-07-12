@@ -348,7 +348,7 @@ The canonical variables are the metric \\(h_{\mu\nu}\\) on \\(\Sigma\\) and its 
 	\end{gather}
 </li>	
 
-<li>Momentum Conjugate to \\(h_{\mu\nu}\\)
+<li>Momentum Conjugate to \(h_{\mu\nu}\)
 	\begin{equation}
 	    \pi^{\mu\nu} = \frac{\partial \Lag_{\MM}}{\partial \left( \pounds_{n}
 	    h_{\mu\nu} \right)} = \frac{1}{2\,\kappa^2} \left(h^{\mu\nu}\,K - K^{\mu\nu} \right)
@@ -410,7 +410,7 @@ The dimension of spacetime is \\(d+1\\). Indices are raised and lowered using th
 <li>Ricci Tensor
 	\begin{align}
 	 \hat{R}_{\mu\nu} = & \dub R_{\mu\nu} - g_{\mu\nu} \, \nabla^{2} \sigma - (d-1)\,\nabla_{\mu}
-	    \nabla_{\nu} \sigma + (d-1) \, \nabla_{\mu} \sigma \, \nabla_{\nu} \sigma \\
+	    \nabla_{\nu} \sigma + (d-1) \, \nabla_{\mu} \sigma \, \nabla_{\nu} \sigma \\ \nonumber
 	     & \dub - (d-1) \, g_{\mu\nu} \nabla^{\lambda} \sigma \, \nabla_{\lambda} \sigma
 	\end{align}
 </li>
