@@ -6,7 +6,7 @@ classes: wide
 ---
 
 <!-- # Conventions, Definitions, Identities, and Formulas -->
-_Last Modified: September 4, 2021_
+_Last Modified: July 12, 2022_
 
 A collection of results that are useful enough for me to keep them all in one place. [Let me know][Mail-me] if you find typos or mistakes.
 
@@ -373,7 +373,7 @@ The canonical variables are the metric \\(h_{\mu\nu}\\) on \\(\Sigma\\) and its 
 
 ### Weyl Transformations
 
-The dimension of spacetime is \\(d+1\\). Indices are raised and lowered using the metric \\(g_{\mu\nu}\\) and its inverse \\(g^{\mu\nu}\\).
+The dimension of spacetime is \\(d+1\\). Indices are raised and lowered using the metric \\(g_{\mu\nu}\\) and its inverse \\(g^{\mu\nu}\\). 
 
 <ul>
 <li>Metric
@@ -397,11 +397,11 @@ The dimension of spacetime is \\(d+1\\). Indices are raised and lowered using th
 	 \hat{R}^{\,\lambda}{}_{\mu\rho\nu} = & \dub R^{\lambda}{}_{\mu\rho\nu}
 	 + \delta^{\lambda}{}_{\nu} \, \nabla_{\mu} \nabla_{\rho} \sigma
 	 - \delta^{\lambda}{}_{\rho} \, \nabla_{\mu} \nabla_{\nu} \sigma
-	 + g_{\mu\rho} \, \nabla_{\nu} \nabla^{\lambda} \sigma - g_{\mu\nu} \, \nabla_{\rho} \nabla^{\lambda} \sigma \\
+	 + g_{\mu\rho} \, \nabla_{\nu} \nabla^{\lambda} \sigma - g_{\mu\nu} \, \nabla_{\rho} \nabla^{\lambda} \sigma \\ \nonumber
 	& \dub + \delta^{\lambda}{}_{\rho} \, \nabla_{\mu} \sigma \, \nabla_{\nu} \sigma
 	 - \delta^{\lambda}{}_{\nu} \, \nabla_{\mu} \sigma \, \nabla_{\rho} \sigma
 	 + g_{\mu\nu}\,\nabla_{\rho} \sigma \, \nabla^{\lambda} \sigma
-	 - g_{\mu\rho}\,\nabla_{\nu} \sigma \, \nabla^{\lambda} \sigma \\
+	 - g_{\mu\rho}\,\nabla_{\nu} \sigma \, \nabla^{\lambda} \sigma \\ \nonumber
 	 & \dub + \left( g_{\mu\rho} \, \delta^{\lambda}{}_{\nu} - g_{\mu\nu} \, \delta^{\lambda}{}_{\rho}
 	  \right)  \nabla^{\alpha} \sigma \, \nabla_{\alpha} \sigma
 	\end{align}
