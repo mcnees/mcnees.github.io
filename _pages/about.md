@@ -18,8 +18,6 @@ When I am not teaching or doing research I like to spend time with my family, ha
   <p>A basic message.</p>
 </div> -->
 
-<a rel="me" href="https://mastodon.social/@mcnees">Mastodon</a>
-
 [Loyola-physics]: https://luc.edu/physics
 [Loyola-main]: https://luc.edu
 [scream-into-the-void]: https://twitter.com/mcnees
