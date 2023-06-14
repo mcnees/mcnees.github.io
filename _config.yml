@@ -73,7 +73,7 @@ author:
       icon: "fab fa-fw fa-mastodon"
       url: "https://mastodon.social/@mcnees"  
     - label: "Bluesky"
-      icon: "fal fa-fw fa-cloud-sun"
+      icon: "fa-light fa-fw fa-cloud-sun"
       url: "https://bsky.app/profile/mcnees.bsky.social"  
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
