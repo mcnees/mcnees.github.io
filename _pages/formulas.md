@@ -22,6 +22,7 @@ Watch out for MathJax that hasn't compiled! Porting this over from pure html to 
 
 - [Curvature Tensors](#curvature-tensors)
 - [Differential Forms](#differential-forms)
+- [Lie Derivatives](#lie-derivatives)
 - [Euler Densities](#euler-densities)
 - [Hypersurface Formed by a Spacelike Vector](#hypersurface-formed-by-a-spacelike-vector)
 - [Sign Conventions for the Action](#sign-conventions-for-the-action)
@@ -146,6 +147,18 @@ Consider a \\(d+1\\) dimensional spacetime \\((\mathcal{M}, g)\\) and a covarian
 	\end{align}
 	</li>	
 </ul>
+
+
+### Lie Derivatives
+Let \\(T\\) be a rank \\((n,m)\\) tensor and \\(\xi\\) be a vector. The Lie derivative of \\(T\\) along \\(\xi\\) is also a rank \\((n,m)\\) tensor, with components
+	\begin{align} \nonumber
+		\pounds_{\xi} \,T^{\mu_{1}\ldots\mu_{n}}{}_{\nu_{1}\ldots\nu_{m}} = & \,\, \xi^{\lambda}\partial_{\lambda}\,T^{\mu_{1}\ldots\mu_{n}}{}_{\nu_{1}\ldots\nu_{m}} \\
+		&\,\, - \,T^{\lambda\mu_{2}\ldots\mu_{n}}{}_{\nu_{1}\ldots\nu_{m}}\,\partial_{\lambda}\xi^{\mu_{1}} - \ldots - \,T^{\mu_{1}\ldots\mu_{n-1}\lambda}{}_{\nu_{1}\ldots\nu_{m}}\,\partial_{\lambda}\xi^{\mu_{n}} \\ \nonumber
+		&\,\, + \,T^{\mu_{1}\ldots\mu_{n}}{}_{\lambda\nu_{2}\ldots\nu_{m}}\,\partial_{\nu_{1}} \xi^{\lambda} + \ldots + \,T^{\mu_{1}\ldots\mu_{n}}{}_{\nu_{1}\ldots\nu_{m-1}\lambda}\,\partial_{\nu_{m}}\xi^{\lambda}
+	\end{align}
+Any derivative operator can be used here.
+
+
 
 ### Euler Densities
 Let \\(\MM\\) be a manifold (with no boundary!) and dimension \\(d+1=2n\\) an even number. Our normalization gives \\(\chi(S^{2n})=2\\).
