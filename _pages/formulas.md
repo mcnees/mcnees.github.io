@@ -151,14 +151,13 @@ Consider a \\(d+1\\) dimensional spacetime \\((\mathcal{M}, g)\\) and a covarian
 
 ### Lie Derivatives
 Let \\(T\\) be a rank \\((n,m)\\) tensor and \\(\xi\\) be a vector. The Lie derivative of \\(T\\) along \\(\xi\\) is also a rank \\((n,m)\\) tensor, with components
-<ul>
-	<li>\begin{align} \nonumber
+
+	$$ \begin{align} \nonumber
 		\pounds_{\xi} \,T^{\mu_{1}\ldots\mu_{n}}{}_{\nu_{1}\ldots\nu_{m}} = & \,\, \xi^{\lambda}\partial_{\lambda}\,T^{\mu_{1}\ldots\mu_{n}}{}_{\nu_{1}\ldots\nu_{m}} \\
 		&\,\, - \,T^{\lambda\mu_{2}\ldots\mu_{n}}{}_{\nu_{1}\ldots\nu_{m}}\,\partial_{\lambda}\xi^{\mu_{1}} - \ldots - \,T^{\mu_{1}\ldots\mu_{n-1}\lambda}{}_{\nu_{1}\ldots\nu_{m}}\,\partial_{\lambda}\xi^{\mu_{n}} \\ \nonumber
 		&\,\, + \,T^{\mu_{1}\ldots\mu_{n}}{}_{\lambda\nu_{2}\ldots\nu_{m}}\,\partial_{\nu_{1}} \xi^{\lambda} + \ldots + \,T^{\mu_{1}\ldots\mu_{n}}{}_{\nu_{1}\ldots\nu_{m-1}\lambda}\,\partial_{\nu_{m}}\xi^{\lambda}
-	\end{align}
-	</li>
-</ul>
+	\end{align} $$
+	
 Any derivative operator can be used here.
 
 
