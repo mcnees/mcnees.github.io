@@ -55,41 +55,46 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site Author
 author:
-  name   : "Robert McNees"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a theoretical physicist and associate professor at Loyola University Chicago."
-  links:
-    - label: "Chicago, IL (z=0)"
-      icon: "fas fa-fw fa-map-marker"
-      url: "https://"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jacobi.luc.edu"
-    - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/mcnees.bsky.social"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://mastodon.social/@mcnees"  
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mcnees"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mcnees"
-    - label: "arXiv"
-      icon: "ai ai-arxiv ai-fw"
-      url: "https://arxiv.org/search/?searchtype=author&query=McNees%2C+R"
-    - label: "iNSPIRE"
-      icon: "ai ai-inspire ai-fw"
-      url: "https://inspirehep.net/authors/997989"
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar ai-fw"
-      url: "https://scholar.google.com/citations?user=Xv-faY4AAAAJ&hl=en"
-    - label: "ORCiD"
-      icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0001-7504-0152"
+  name             : "Robert McNees"
+  avatar           : "bio-photo.jpg"
+  bio              : "I'm a theoretical physicist and associate professor at Loyola University Chicago."
+  location         : "Chicago, IL"
+  email            : "rmcnees@luc.edu"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : 
+  foursquare       :
+  github           : 
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : 
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  # Custom author fields follow
+  arxiv            : "mcnees_r_2"
+  orcid            : "0000-0001-7504-0152"
+  inspire          : 
+  google-scholar   : 
+  mastodon         :
+    handle         : "mcnees"
+    instance       : "mastodon.social"
+  bsky             : "mcnees.bsky.social"
+  
 
 footer:
   links:
