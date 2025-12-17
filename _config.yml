@@ -67,7 +67,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://jacobi.luc.edu"
     - label: "Bluesky"
-      icon: "fab fa-bluesky"
+      icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/mcnees.bsky.social"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
